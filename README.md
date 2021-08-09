@@ -2,7 +2,7 @@
 
 ## Introduction
 
-An outdated Wordpress 4.7 theme. It is very probably unusable with modern Wordpress, and even if you can install it, be clever, don't 😉.
+An outdated Wordpress 4.7 theme. It is very probably unusable with modern Wordpress, and even if you can install it : be clever, don't 😉.
 
 I built it years ago to learn the basics of Wordpress dev. I even used it on my own blog (you won't find (I hope)).
 
