@@ -14,4 +14,4 @@ You can access a live demo of the front-end at [lakeewok.arnaud.cool](https://la
 
 ## Licence
 
-This project is under Mozilla Public Licence 2.
+This project is under Mozilla Public Licence 2 (except the fonts).
