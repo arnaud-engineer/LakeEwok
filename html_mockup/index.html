@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8" />
+	<title>LakeEwok MockUp</title>
+	<link rel="stylesheet" href="design.css" media="screen" />
+	<script type="text/javascript">
+	function changeDeadLine()
+	{
+		var r = Math.floor(Math.random() * 45);
+		var phrase = "";
+		
+		switch(r)
+		{
+			case 0:
+				phrase = "UN BLOG QU'IL EST BIEN";
+			break;
+			case 1:
+				phrase = "RECOMMANDÉ PAR LES PLUS GRANDES MARQUES DE LAVE-VAISSELLES !";
+			break;
+			case 2:
+				phrase = "UN SITE AVEC DES SOUS-TITRES FAÇON FUTURAMA QUAND TU RECHARGES !";
+			break;
+			case 3:
+				phrase = "\"RAWRGWAWGRR GWWWRGHH\" - CHEWBACCA";
+			break;
+			case 4:
+				phrase = "JE M'APPELLE FUNNY BEAR !!!";
+			break;
+			case 5:
+				phrase = "NE PAS UTILISER DE CSS PERMET D'AVOIR UN SITE EN FLAT DESIGN (MOCHE)";
+			break;
+			case 6:
+				phrase = "EVERYBODY, ROCK YOUR BODY RIGHT, BACKSTREET'S BACK, ALRIGHT";
+			break;
+			case 7:
+				phrase = "JE M'APPELLE INIGO MONTOYA, TU AS TUÉ MON PÈRE, PRÉPARE TOI À MOURIR";
+			break;
+			case 8:
+				phrase = "#BLOG #TECH #GEEK #CINEMA #CHEWBACCA #TROPDEHASHTAGSTUENTLEHASHTAG";
+			break;
+			case 9:
+				phrase = "LA RÉPONSE EST 42, MAIS  QU'ELLE EST LA QUESTION ?";
+			break;
+			case 10:
+				phrase = "ALIMENTAIRE MON CHER WATSON !";
+			break;
+			case 11:
+				phrase = "PLUTÔT QUE DE RECHARGER LA PAGE POUR VOIR LES PHRASES, ALLEZ VOIR LE CODE";
+			break;
+			case 12:
+				phrase = "SATISFAIT OU REMBOURSÉ (MAIS VU QUE C'EST GRATUIT ...)";
+			break;
+			case 13:
+				phrase = "MAISON DE TRADITION DEPUIS 1994";
+			break;
+			case 14:
+				phrase = "OOPS I DID IT AGAIN !";
+			break;
+			case 15:
+				phrase = "TOTO, I'VE A FEELING WE'RE NOT IN KANSAS ANYMORE";
+			break;
+			case 16:
+				phrase = "LA FORCE EST AVEC CE BLOG";
+			break;
+			case 17:
+				phrase = "UN SITE \"AWARE\" SELON JEAN CLAUDE VAN DAMME !";
+			break;
+			case 18:
+				phrase = "DÉCLARÉ SOURCE DE JEUNESSE PAR VOTRE CORPS";
+			break;
+			case 19:
+				phrase = "AUSSI DISPONIBLE SUR LE MINITEL 3615 NANAUD";
+			break;
+			case 20:
+				phrase = "LE BLOG DE L'INTERNET INFORMATIQUE DES ORDINATEURS";
+			break;
+			case 21:
+				phrase = "NOW IN TECHNICOLOR !!!";
+			break;
+			case 22:
+				phrase = "VOTRE DEVICE VA S'AUTO-DÉTRUIRE À LA FIN DE CE MESSAGE";
+			break;
+			case 23:
+				phrase = "PARCE QUE STAR WARS C'EST MIEUX QUE STAR TREK";
+			break;
+			case 24:
+				phrase = "N°1 SUR LE PROTOCOLE TCP/IP ET SES USAGES !";
+			break;
+			case 25:
+				phrase = "MERCI DE NE PAS FUIR EN COURANT";
+			break;
+			case 26:
+				phrase = "AVEC DE VRAI MORCEAUX DE NANAUD DEDANS !";
+			break;
+			case 27:
+				phrase = "TAPEZ CECI DANS UN TERMINAL \":(){ :|:& };:\" (OU PAS)";
+			break;
+			case 28:
+				phrase = "SUDO APT-GET INSTALL NANAUD";
+			break;
+			case 29:
+				phrase = "TU VEUX ÊTRE MON AMI ?";
+			break;
+			case 30:
+				phrase = "ON THE INTERNET, THE NSA KNOWS YOU ARE A DOG !";
+			break;
+			case 31:
+				phrase = "LOREM IPSUM DOLOR SIT AMET";
+			break;
+			case 32:
+				phrase = "INCLUDE NANAUD.H";
+			break;
+			case 33:
+				phrase = "LES WOOKIES VAINCRONT !";
+			break;
+			case 34:
+				phrase = "PLUS FORT QUE ZOMBO.COM !";
+			break;
+			case 35:
+				phrase = "EN ATTENTE D'UNE OFFRE DE RACHAT À 3 MILLIARDS DE DOLLARS";
+			break;
+			case 36:
+				phrase = "UN BLOG PLUTÔT CHAT QUE CHIEN";
+			break;
+			case 37:
+				phrase = "SUPERCALIFRAGILISTICEXPIALIDOCIOUS !!!";
+			break;
+			case 38:
+				phrase = "OU ARNAUD DUPONT DANS LA VRAI VIE";
+			break;
+			case 39:
+				phrase = "N°1 EN BIELORUSSIE";
+			break;
+			case 40:
+				phrase = "LE PLUS BEAU SELON SA MAMAN";
+			break;
+			case 41:
+				phrase = "I DON'T FEEL LIKE DANCIN'";
+			break;
+			case 42:
+				phrase = "IS IN THE PLACE !";
+			break;
+			case 43:
+				phrase = "NE LIS PAS CE BLOG, SINON VOILÀ CE QUI VA SE PASSER ! ...";
+			break;
+			case 44:
+				phrase = "NOS AUTEURS NE SONT PAS DES BOTS";
+			break;
+		}
+		document.getElementById(id='deadline').innerHTML = phrase;
+	}
+	
+	function adaptWidth()
+	{
+		if(document.body.clientWidth <= 600)
+		{
+			document.getElementById(id='annot').innerHTML = "<a href='http://nanaud.fr/' style='font-size:80px;'>+</a>";
+		}
+	}
+	</script>
+</head>
+
+<body>
+
+	<header>
+    	<h1><a href='#'>LAKEEWOK MOCKUP</a></h1><hr/>
+      	<h2 id='deadline'>VOUS DEVRIEZ ACTIVEZ JAVASCRIPT : <a href="http://www.enable-javascript.com/fr/">CLIQUEZ ICI !</a></h2><hr/>
+        <div id='annot'><a href='https://arnaud.cool/'>QUI SUIS-JE ?<br/>OÙ ME TROUVER ?</a></div>
+    </header>
+    
+    <div id='right'>
+    	<a><img src='right.png'/></a>
+    </div>
+    <div id='left'>
+    	<a><img src='left.png'/></a>
+    </div>
+    
+    <div id='body'>
+    	<div id='article'>
+        	<h2>11 DEC 2013</h2><hr/><h1>UN SUPER ARTICLE SUR LOREM IPSUM</h1><hr/>
+            <img src='art_img/1.jpg' alt=''height='5%' width='100%'/>
+            <div id='content'>
+            
+            
+            
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            
+            
+            
+            
+            
+            
+            
+            </div>
+            <hr/><div id="comment"><a href='comment.php'>AJOUTER COMMENTAIRE</a>&nbsp;&nbsp;-&nbsp;&nbsp;3 COMMENTAIRES</span><hr/>
+            <div id='comments'>
+            <h1>DARK VADOR - 25 DEC 2013 - 12:43</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><hr/>
+            </div>
+            <div id='comments'>
+            <h1>LUKE SKYWALKER - 25 DEC 2013 - 12:59</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><hr/>
+            </div>
+            <div id='comments'>
+            <h1>GEORGES LUCAS - 25 DEC 2013 - 13:11</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><hr/>
+            </div>
+            
+            <footer>
+            <div id="tip">POUR CHANGER D'ARTICLE, UTILISEZ LES FLÈCHES DE NAVIGATION SUR LES CÔTÉS OU VOTRE CLAVIER</div><hr/>
+            </footer>
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+		changeDeadLine();
+		adaptWidth();
+	</script>
+
+</body>
+
+</html>
