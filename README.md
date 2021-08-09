@@ -10,7 +10,7 @@ It is currently discontinued.
 
 ## Demo
 
-You can access a live demo of the front-end at [lakeewok.arnaud.cool](https://lakeewok.arnaud.cool) (mockup). For obvious security reasons, I refuse to install it on a wordpress.
+You can access a live demo of the front-end at [lakeewok.arnaud.cool](https://lakeewok.arnaud.cool) (mockup). For obvious security reasons, I refuse to install it on an actual Wordpress.
 
 ## Licence
 
